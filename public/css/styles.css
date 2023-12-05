@@ -325,7 +325,7 @@ footer {
 }
 
 .footer-copyright {
-  text-align: left;
+  text-align: center;
 }
 
 @media (min-width: 769px) {
@@ -341,6 +341,10 @@ footer {
 
 */
 
+.titular--centro {
+  text-align: center;
+}
+
 .formulario {
   display: flex;
   flex-direction: column;
@@ -349,6 +353,8 @@ footer {
   height: 100%;
   gap: 1rem;
   padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .formulario-input {
@@ -357,6 +363,8 @@ footer {
   border-radius: 7px;
   border: none;
   transition: all 0.1s ease-in-out;
+  border: 1px gray solid;
+  box-shadow: 0 0 10px gray;
 }
 
 .formulario-input:focus {
